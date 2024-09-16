@@ -1,3 +1,4 @@
+#!/usr/bin/Rscript
 ######目的：TCGAbiolinks下载TCGA泛癌多组学数据
 ######作者：申奥
 ######日期：2023-09-14
