@@ -16,7 +16,8 @@ spec <- matrix(
   # 每行五个，第五个可选，也就是说第五列可以不写
   # byrow 按行填充矩阵的元素
   # ncol  每行填充五个元素
-  c("cancerType",  "c", 2, "character", "Input the cancer type"),
+  c('help', 'h', 0,'loical', '显示此帮助信息',
+    "cancerType",  "c", 1, "character", "Input a single cancer type"),
   byrow=TRUE, ncol=5)
 opt <- getopt(spec=spec)
 
